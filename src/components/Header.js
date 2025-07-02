@@ -118,12 +118,7 @@ function Header({ activePage }) {
       </div>
 
       {/* Center Section: Search */}
-      <div className="header-center">
-        <div className="search-container">
-          <input type="text" className="search-box" placeholder="Search parameters..." />
-          <i className="fas fa-search search-icon"></i>
-        </div>
-      </div>
+     
 
       {/* Right Section: Notifications + Status */}
       <div className="header-right">
