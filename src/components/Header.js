@@ -113,12 +113,12 @@ function Header({ activePage }) {
       {/* Left Section: Title */}
       <div className="header-left">
         <h2>
-          <i className={`fas fa-${pageIcons[activePage]}`}></i> Smart Home RO Purifier {pageTitles[activePage]}
+          <i className={`fas fa-${pageIcons[activePage]}`}></i> Aqua-{pageTitles[activePage]}
         </h2>
       </div>
 
       {/* Center Section: Search */}
-     <div className="header-center">
+      <div className="header-center">
         <div className="search-container">
           <input type="text" className="search-box" placeholder="Search parameters..." />
           <i className="fas fa-search search-icon"></i>
